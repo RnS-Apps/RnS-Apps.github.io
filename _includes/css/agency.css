@@ -181,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     text-indent: -9999px;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/logo.png');
+    background-image: url('{{ site.url }}/img/logo.png');
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -290,7 +290,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.url }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
