@@ -290,19 +290,13 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.url }}/img/header/header-bg_320w.jpg');
-    background-position: center center;
+    background-image: url('{{ site.url }}/img/header/header-bg_820w.jpg');
+    background-position: top center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-@media(min-width:481px) {
-    header {
-        background-image: url('{{ site.url }}/img/header/header-bg_820w.jpg');
-    }
 }
 
 @media(min-width:769px) {
